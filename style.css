@@ -20,10 +20,10 @@ body {
 .text {
     text-align: center;
     font-size: 24px;
-    text-shadow: 0 0 10px black,0 0 10px black,0 0 10px black,0 0 10px black,0 0 10px black,0 0 10px black;
+    text-shadow: 0 0 10px black, 0 0 10px black, 0 0 10px black, 0 0 10px black, 0 0 10px black, 0 0 10px black;
 }
 
-h1.text{
+h1.text {
     font-size: 48px;
     margin: 0 2% 0;
 }
@@ -38,17 +38,26 @@ h1.text{
     transform: translate(-50%);
 }
 
+.nome_logo {
+    font-size: 80px !important;
+    font-weight: 400;
+    text-align: center;
+    margin: 0 -15% !important;
+}
+
 .teaser {
     position: relative;
     width: 60%;
     left: 50%;
     transform: translate(-50%);
+
     iframe {
         width: 100%;
         height: 550px;
         margin-bottom: 2%;
     }
-    img{
+
+    img {
         position: relative;
         left: 50%;
         transform: translate(-50%);
@@ -61,6 +70,7 @@ h1.text{
     left: 50%;
     transform: translate(-50%);
     margin-bottom: 2%;
+
     img {
         width: 30%;
         height: 100%;
@@ -84,16 +94,19 @@ h1.text{
 
 .membro {
     position: relative;
+    min-width: 125px;
     width: 16%;
     max-width: 250px;
     cursor: pointer;
+
     img {
         width: 100%;
         border-radius: 20px;
         margin-bottom: 5%;
     }
+
     h2 {
-        text-shadow: 0 0 10px black,0 0 10px black,0 0 10px black,0 0 10px black,0 0 10px black,0 0 10px black, 0 0 10px black,0 0 10px black,0 0 10px black,0 0 10px black,0 0 10px black,0 0 10px black;
+        text-shadow: 0 0 10px black, 0 0 10px black, 0 0 10px black, 0 0 10px black, 0 0 10px black, 0 0 10px black, 0 0 10px black, 0 0 10px black, 0 0 10px black, 0 0 10px black, 0 0 10px black, 0 0 10px black;
         position: absolute;
         z-index: 2;
         bottom: 5%;
@@ -127,11 +140,11 @@ h1.text{
 }
 
 .membro_selecionado {
-    transform: scale(1.1);   
+    transform: scale(1.1);
 }
 
 .sobre_membro {
-    width: 80%;
+    width: 110%;
     max-width: 600px;
     position: relative;
     left: 50%;
@@ -142,6 +155,7 @@ h1.text{
     box-shadow: 0 0 10px #fff, 0 0 10px #fff;
     padding: 2%;
     display: flex;
+
     img {
         position: absolute;
         width: 140px;
@@ -164,7 +178,8 @@ h1.text{
     display: none;
 }
 
-.sobre_membro_1, .sobre_membro_2 {
+.sobre_membro_1,
+.sobre_membro_2 {
     width: 50%;
     font-size: 24px;
 }
@@ -176,11 +191,13 @@ h1.text{
 .videos {
     position: relative;
     margin-bottom: 2%;
+
     .carrossel {
         display: flex;
         align-items: center;
         justify-content: center;
         gap: 20px;
+
         button {
             font-size: 24px;
             padding: 10px 20px;
@@ -191,6 +208,7 @@ h1.text{
             border-radius: 10px;
             transition: all 0.3s ease;
         }
+
         button:hover {
             background-color: #fff;
             color: #000;
@@ -198,11 +216,16 @@ h1.text{
     }
 }
 
+#player {
+    width: 560px;
+    height: 315px;
+}
+
 #titulo_video {
     text-align: center;
     margin-top: 10px;
     font-size: 32px;
-    text-shadow: 0 0 10px black,0 0 10px black,0 0 10px black,0 0 10px black,0 0 10px black;
+    text-shadow: 0 0 10px black, 0 0 10px black, 0 0 10px black, 0 0 10px black, 0 0 10px black;
 }
 
 .socialmedia div {
@@ -215,10 +238,12 @@ h1.text{
     transform: translate(-50%);
     margin-bottom: 2%;
     padding: 0 5%;
+
     h2 {
         font-weight: 400;
         font-size: 32px;
     }
+
     a {
         color: #fff
     }
@@ -247,7 +272,8 @@ footer {
     display: flex;
     text-align: center;
     justify-content: space-evenly;
-    a { 
+
+    a {
         color: #fff;
     }
 }
@@ -257,7 +283,8 @@ footer {
         flex-wrap: nowrap;
     }
 
-    .sobrexdaquestao, .redessociais {
+    .sobrexdaquestao,
+    .redessociais {
         width: 50%;
     }
 }
@@ -275,8 +302,54 @@ footer {
     }
 }
 
-.discord, .twitter, .youtube {
+@media (max-width: 705px) {
+
+    .teaser p.text,
+    .about p.text {
+        font-size: 20px;
+    }
+
+    .teaser iframe {
+        height: 250px;
+    }
+
+    .papel_membro {
+        font-size: 24px;
+    }
+
+    .sobre_membro_2 {
+        font-size: 18px !important;
+    }
+
+    #player {
+        width: 250px;
+        height: 200px;
+    }
+
+    .videos .carrossel button {
+        font-size: 18px;
+        padding: 8px 16px;
+    }
+
+    .socialmedia h1 {
+        font-size: 28px;
+    }
+
+    .socialmedia h2 {
+        font-size: 20px !important;
+    }
+
+    .sobrexdaquestao {
+        padding: 0;
+        font-size: 1.3em !important;
+    }
+}
+
+.discord,
+.twitter,
+.youtube {
     cursor: pointer;
+
     img {
         border-radius: 100%;
         max-width: 150px;
@@ -284,6 +357,8 @@ footer {
     }
 }
 
-.discord:hover, .twitter:hover, .youtube:hover {
+.discord:hover,
+.twitter:hover,
+.youtube:hover {
     transform: scale(1.1);
 }
