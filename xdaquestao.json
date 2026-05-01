@@ -2,6 +2,7 @@
     "membro": {
         "ayla": {
             "nome": "Ayla",
+            "interprete": "LíciaWebber",
             "papel": "Quem Sabe",
             "cor": "#ff0000",
             "imagem": "images/ayla_chibi.png",
@@ -11,6 +12,7 @@
         },
         "benicio": {
             "nome": "Benício",
+            "interprete": "GGTonho",
             "papel": "Quem Resolve",
             "cor": "#ffff00",
             "imagem": "images/beni_chibi.png",
@@ -20,6 +22,7 @@
         },
         "krave": {
             "nome": "Krave",
+            "interprete": "CalígrafoTV",
             "papel": "Quem Comanda",
             "cor": "#ff9100",
             "imagem": "images/krave_chibi.png",
@@ -29,6 +32,7 @@
         },
         "lucas": {
             "nome": "Lucas",
+            "interprete": "GrifoEXE",
             "papel": "Quem Age",
             "cor": "#009e2f",
             "imagem": "images/lucas_chibi.png",
@@ -38,6 +42,7 @@
         },
         "nina": {
             "nome": "Nina",
+            "interprete": "Carol",
             "papel": "Quem Age",
             "cor": "#747474",
             "imagem": "images/nina_chibi.png",
@@ -125,7 +130,7 @@
         },
         "video20": {
             "titulo": "ESPECIAL - COELHO DE PÁSCOA",
-            "url": "https:www.youtube.com/embed/NpjmCKNAhZ4"
+            "url": "https://www.youtube.com/embed/NpjmCKNAhZ4"
         },
         "video21": {
             "titulo": "VELHOS AMIGOS",
