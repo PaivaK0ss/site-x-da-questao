@@ -38,7 +38,7 @@ h1.text {
 }
 
 .nome_logo {
-    font-size: 80px !important;
+    font-size: 70px !important;
     font-weight: 400;
     text-align: center;
     margin: 0 -15% !important;
@@ -308,15 +308,12 @@ footer {
         position: relative;
         left: 0;
         transform: translate(-10%);
+        height: 250px;
     }
 
     .teaser p.text,
     .about p.text {
-        font-size: 16px;
-    }
-
-    .teaser iframe {
-        height: 250px;
+        font-size: 12px;
     }
 
     .papel_membro {
