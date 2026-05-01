@@ -49,7 +49,7 @@ membros.forEach(el => {
         imgSobre.src = membro.imagem;
         funcao.innerHTML = `<span style="font-weight:bold; text-decoration:underline;">Função no canal: </span>${membro.funcao}`;
         gostos.innerHTML = `<span style="font-weight:bold; text-decoration:underline;">Gostos: </span>${membro.gostos}`;
-        interprete.innerHTML = `<span style="font-weight:bold; text-decoration:underline;">Intérprete: </span>${membro.interprete}`;
+        interprete.innerHTML = `<span style="font-weight:bold; text-decoration:underline;">Interpretado por: </span>${membro.interprete}`;
         info.innerHTML = `<span style="font-style: italic;">"${membro.info}"</span>`;
 
         sobre.classList.remove("desativado");
