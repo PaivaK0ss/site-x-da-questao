@@ -111,6 +111,7 @@ h1.text {
         bottom: 5%;
         left: 5%;
         font-size: 32px;
+        line-height: 1;
     }
 }
 
@@ -316,8 +317,21 @@ footer {
         font-size: 12px;
     }
 
-    .papel_membro {
+    h1.text.nome_logo {
+        font-size: 60px !important;
+        margin: 0 -20% !important;
+    }
+
+    h1.text {
+        font-size: 36px;
+    }
+
+    h2.nome_membro {
         font-size: 24px;
+    }
+
+    .papel_membro {
+        font-size: 22px;
     }
 
     .sobre_membro_2 {
