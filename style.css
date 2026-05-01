@@ -130,6 +130,7 @@ h1.text{
 
 .sobre_membro {
     width: 80%;
+    max-width: 550px;
     position: relative;
     left: 50%;
     height: 250px;
