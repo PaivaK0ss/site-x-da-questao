@@ -14,7 +14,6 @@ body {
     background-size: 100%;
     background-position-x: center;
     color: #ffffff;
-    overflow-x: hidden;
 }
 
 .text {
@@ -52,10 +51,7 @@ h1.text {
     transform: translate(-50%);
 
     iframe {
-        position: relative;
-        left: 0;
-        transform: translate(-15%);
-        width: 100%;
+        width: 90%;
         height: 550px;
         margin-bottom: 2%;
     }
@@ -308,12 +304,15 @@ footer {
 @media (max-width: 705px) {
 
     .teaser iframe {
-        width: 140%;
+        width: 130%;
+        position: relative;
+        left: 0;
+        transform: translate(-10%);
     }
 
     .teaser p.text,
     .about p.text {
-        font-size: 20px;
+        font-size: 16px;
     }
 
     .teaser iframe {
