@@ -66,7 +66,7 @@ h1.text{
 }
 
 .members {
-    width: 68.2%;
+    width: 75%;
     position: relative;
     left: 50%;
     transform: translate(-50%);
@@ -83,7 +83,7 @@ h1.text{
 .membro {
     position: relative;
     width: 16%;
-    max-width: 200px;
+    max-width: 250px;
     cursor: pointer;
     img {
         width: 100%;
