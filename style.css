@@ -51,7 +51,7 @@ h1.text {
     transform: translate(-50%);
 
     iframe {
-        width: 100%;
+        width: 100% !important;
         height: 550px;
         margin-bottom: 2%;
     }
