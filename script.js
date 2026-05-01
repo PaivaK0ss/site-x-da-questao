@@ -40,8 +40,8 @@ membros.forEach(el => {
         const imgSobre = document.querySelector(".sobre_membro img");
         const funcao = document.querySelector(".funcao_membro");
         const gostos = document.querySelector(".gostos_membro");
-        const desgostos = document.querySelector(".desgostos_membro");
         const interprete = document.querySelector(".interprete_membro");
+        const info = document.querySelector(".info_membro");
 
         h1.innerHTML = `${membro.nome}`;
         h2.innerHTML = `${membro.papel}`;
@@ -49,8 +49,8 @@ membros.forEach(el => {
         imgSobre.src = membro.imagem;
         funcao.innerHTML = `<span style="font-weight:bold; text-decoration:underline;">Função no canal: </span>${membro.funcao}`;
         gostos.innerHTML = `<span style="font-weight:bold; text-decoration:underline;">Gostos: </span>${membro.gostos}`;
-        desgostos.innerHTML = `<span style="font-weight:bold; text-decoration:underline;">Desgostos: </span>${membro.desgostos}`;
         interprete.innerHTML = `<span style="font-weight:bold; text-decoration:underline;">Intérprete: </span>${membro.interprete}`;
+        info.innerHTML = `<span style="font-style: italic;">"${membro.info}"</span>`;
 
         sobre.classList.remove("desativado");
         sobre.classList.add("sumindo");

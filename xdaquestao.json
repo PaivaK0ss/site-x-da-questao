@@ -7,8 +7,8 @@
             "cor": "#ff0000",
             "imagem": "images/ayla_chibi.png",
             "funcao": "Social Media Manager",
-            "gostos": "Lucas e internet",
-            "desgostos": "Ver lista de alergias com Benício, Wanda"
+            "gostos": "Lucas, redes sociais e cerejas",
+            "info": "Tem muito intelecto e muitas alergias"
         },
         "benicio": {
             "nome": "Benício",
@@ -18,7 +18,7 @@
             "imagem": "images/beni_chibi.png",
             "funcao": "Diretor do Canal",
             "gostos": "Seus amigos e X da Questão",
-            "desgostos": "Nada nem ninguém"
+            "info": "Tem a Caixa de Pandora e muito amor no coração"
         },
         "krave": {
             "nome": "Krave",
@@ -28,7 +28,7 @@
             "imagem": "images/krave_chibi.png",
             "funcao": "Técnico de Som",
             "gostos": "Nina, esportes e música",
-            "desgostos": "Wanda"
+            "info": "Farma muita aura e tem um corvo foda"
         },
         "lucas": {
             "nome": "Lucas",
@@ -38,7 +38,7 @@
             "imagem": "images/lucas_chibi.png",
             "funcao": "Cameraman e Editor",
             "gostos": "Ayla, comida e jogos",
-            "desgostos": "Wanda e Nina"
+            "info": "Tem um cachorro skatista e um graveto MANEIRO"
         },
         "nina": {
             "nome": "Nina",
@@ -47,8 +47,8 @@
             "cor": "#747474",
             "imagem": "images/nina_chibi.png",
             "funcao": "Roteirista",
-            "gostos": "Krave, adaga infernal, coisas relacionadas à morte",
-            "desgostos": "Wanda e Lucas"
+            "gostos": "Krave e coisas relacionadas à morte",
+            "info": "Tem uma adaga vinda direto do inferno"
         }
     },
     "videos": {
