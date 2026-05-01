@@ -41,14 +41,16 @@ membros.forEach(el => {
         const funcao = document.querySelector(".funcao_membro");
         const gostos = document.querySelector(".gostos_membro");
         const desgostos = document.querySelector(".desgostos_membro");
+        const interprete = document.querySelector(".interprete_membro");
 
-        h1.innerHTML = membro.nome;
-        h2.innerHTML = membro.papel;
-        h2.style.textShadow = `0 0 10px ${membro.cor}, 0 0 10px ${membro.cor}, 0 0 10px ${membro.cor}`;
+        h1.innerHTML = `${membro.nome}`;
+        h2.innerHTML = `${membro.papel}`;
+        h2.style.textShadow = `0 0 10px ${membro.cor}, 0 0 15px ${membro.cor}`;
         imgSobre.src = membro.imagem;
         funcao.innerHTML = `<span style="font-weight:bold; text-decoration:underline;">Função no canal: </span>${membro.funcao}`;
         gostos.innerHTML = `<span style="font-weight:bold; text-decoration:underline;">Gostos: </span>${membro.gostos}`;
         desgostos.innerHTML = `<span style="font-weight:bold; text-decoration:underline;">Desgostos: </span>${membro.desgostos}`;
+        interprete.innerHTML = `<span style="font-weight:bold; text-decoration:underline;">Intérprete: </span>${membro.interprete}`;
 
         sobre.classList.remove("desativado");
         sobre.classList.add("sumindo");
@@ -76,13 +78,12 @@ async function carregarVideos() {
 
 function atualizarVideo() {
     player.src = videos[index].url;
-
+    
     if (titulo) {
         titulo.innerText = videos[index].titulo;
     }
 }
 
-// controle
 function nextVideo() {
     index = (index + 1) % videos.length;
     atualizarVideo();
