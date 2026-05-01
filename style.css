@@ -323,11 +323,11 @@ footer {
     }
 
     h1.text {
-        font-size: 36px;
+        font-size: 36px !important;
     }
 
     h2.nome_membro {
-        font-size: 24px;
+        font-size: 24px !important;
     }
 
     .papel_membro {
