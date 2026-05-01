@@ -1,0 +1,262 @@
+@import url('https://fonts.googleapis.com/css2?family=Fontdiner+Swanky&family=Instrument+Sans:ital,wght@0,400..700;1,400..700&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Special+Elite&display=swap');
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Special Elite", system-ui;
+    transition: 300ms ease;
+}
+
+body {
+    background-color: rgb(45, 45, 45);
+    background-image: url(images/background.png);
+    background-repeat: repeat-y;
+    background-size: 100%;
+    background-position-x: center;
+    color: #ffffff;
+}
+
+.text {
+    text-align: center;
+    font-size: 24px;
+    text-shadow: 0 0 10px black,0 0 10px black,0 0 10px black,0 0 10px black,0 0 10px black,0 0 10px black;
+}
+
+h1.text{
+    font-size: 48px;
+    margin: 0 2% 0;
+}
+
+
+.logo {
+    width: 15%;
+    height: auto;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.teaser {
+    position: relative;
+    width: 60%;
+    left: 50%;
+    transform: translate(-50%);
+    iframe {
+        width: 100%;
+        height: 550px;
+        margin-bottom: 2%;
+    }
+    img{
+        position: relative;
+        left: 50%;
+        transform: translate(-50%);
+    }
+}
+
+.about {
+    width: 68.2%;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    margin-bottom: 2%;
+    img {
+        width: 30%;
+        height: 100%;
+    }
+}
+
+.members {
+    width: 68.2%;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.membros {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5%;
+    margin-bottom: 2%;
+}
+
+.membro {
+    position: relative;
+    width: 16%;
+    max-width: 200px;
+    cursor: pointer;
+    img {
+        width: 100%;
+        border-radius: 20px;
+        margin-bottom: 5%;
+    }
+    h2 {
+        text-shadow: 0 0 10px black,0 0 10px black,0 0 10px black,0 0 10px black,0 0 10px black,0 0 10px black, 0 0 10px black,0 0 10px black,0 0 10px black,0 0 10px black,0 0 10px black,0 0 10px black;
+        position: absolute;
+        z-index: 2;
+        bottom: 5%;
+        left: 5%;
+        font-size: 32px;
+    }
+}
+
+.membro:hover {
+    transform: scale(1.1);
+}
+
+.membro_selecionado {
+    transform: scale(1.1);   
+}
+
+#ayla .membro_selecionado {
+    box-shadow: 0 0 10px #ff0000, 0 0 10px #ff0000;
+}
+
+#benicio .membro_selecionado {
+    box-shadow: 0 0 10px #ffff00, 0 0 10px #ffff00;
+}
+
+#krave .membro_selecionado {
+    box-shadow: 0 0 10px #ff9100, 0 0 10px #ff9100;
+}
+
+#lucas .membro_selecionado {
+    box-shadow: 0 0 10px #009e2f, 0 0 10px #009e2f;
+}
+
+#nina .membro_selecionado {
+    box-shadow: 0 0 10px #747474, 0 0 10px #747474;
+}
+
+.sobre_membro {
+    width: 50%;
+    position: relative;
+    left: 50%;
+    height: 250px;
+    background-color: #000;
+    margin-bottom: 2%;
+    border-radius: 20px;
+    box-shadow: 0 0 10px #fff, 0 0 10px #fff;
+    padding: 2%;
+    display: flex;
+    img {
+        position: absolute;
+        width: 140px;
+        bottom: 10%;
+    }
+}
+
+.sobre_membro {
+    opacity: 1;
+    transform: translateX(-50%);
+    transition: all 0.4s ease;
+}
+
+.sobre_membro.sumindo {
+    opacity: 0;
+    transform: translateX(-50%);
+}
+
+.sobre_membro.desativado {
+    display: none;
+}
+
+.sobre_membro_1, .sobre_membro_2 {
+    width: 50%;
+    font-size: 24px;
+}
+
+.nome_membro {
+    font-size: 40px;
+}
+
+.videos {
+    position: relative;
+    margin-bottom: 2%;
+    .carrossel {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+        button {
+            font-size: 24px;
+            padding: 10px 20px;
+            cursor: pointer;
+            background-color: transparent;
+            border: 2px solid #fff;
+            color: #fff;
+            border-radius: 10px;
+            transition: all 0.3s ease;
+        }
+        button:hover {
+            background-color: #fff;
+            color: #000;
+        }
+    }
+}
+
+#titulo_video {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 32px;
+    text-shadow: 0 0 10px black,0 0 10px black,0 0 10px black,0 0 10px black,0 0 10px black;
+}
+
+.socialmedia div {
+    width: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    margin-bottom: 2%;
+    h2 {
+        font-weight: 400;
+        font-size: 32px;
+    }
+    a {
+        color: #fff
+    }
+}
+
+footer {
+    width: 100%;
+    height: 300px;
+    background-color: #000;
+    display: flex;
+    padding: 2%;
+}
+
+.sobrexdaquestao {
+    width: 50%;
+    height: 100%;
+    font-size: 24px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    padding-left: 10%;
+}
+
+.redessociais {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+    img {
+        width: 150px;
+    }
+    a { 
+        color: #fff;
+    }
+}
+
+.discord, .twitter, .youtube {
+    cursor: pointer;
+    margin-right: 2%;
+}
+
+.discord:hover, .twitter:hover, .youtube:hover {
+    transform: scale(1.1);
+}

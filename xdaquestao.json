@@ -1,0 +1,150 @@
+{
+    "membro": {
+        "ayla": {
+            "nome": "Ayla",
+            "papel": "Quem Cuida",
+            "cor": "#ff0000",
+            "imagem": "images/ayla_chibi.png",
+            "funcao": "Social Media Manager",
+            "gostos": "Lucas e internet",
+            "desgostos": "Ver lista de alergias com Benício, Wanda"
+        },
+        "benicio": {
+            "nome": "Benício",
+            "papel": "Quem Resolve",
+            "cor": "#ffff00",
+            "imagem": "images/beni_chibi.png",
+            "funcao": "Diretor do Canal",
+            "gostos": "Seus amigos e X da Questão",
+            "desgostos": "Nada nem ninguém"
+        },
+        "krave": {
+            "nome": "Krave",
+            "papel": "Quem Comanda",
+            "cor": "#ff9100",
+            "imagem": "images/krave_chibi.png",
+            "funcao": "Técnico de Som",
+            "gostos": "Nina, esportes e música",
+            "desgostos": "Wanda"
+        },
+        "lucas": {
+            "nome": "Lucas",
+            "papel": "Quem Age",
+            "cor": "#009e2f",
+            "imagem": "images/lucas_chibi.png",
+            "funcao": "Cameraman e Editor",
+            "gostos": "Ayla, comida e jogos",
+            "desgostos": "Wanda e Nina"
+        },
+        "nina": {
+            "nome": "Nina",
+            "papel": "Quem Age",
+            "cor": "#747474",
+            "imagem": "images/nina_chibi.png",
+            "funcao": "Roteirista",
+            "gostos": "Krave, adaga infernal, coisas relacionadas à morte",
+            "desgostos": "Wanda e Lucas"
+        }
+    },
+    "videos": {
+        "video1": {
+            "titulo": "O VAMPIRO DA PISCINA PÚBLICA",
+            "url": "https://www.youtube.com/embed/z5o-XTTEB0g"
+        },
+        "video2": {
+            "titulo": "A CASA DAS PORTAS",
+            "url": "https://www.youtube.com/embed/UETb8YlxnDA"
+        },
+        "video3": {
+            "titulo": "CANAL 666",
+            "url": "https://www.youtube.com/embed/aBpdTSKSsHI"
+        },
+        "video4": {
+            "titulo": "PARASSONIA",
+            "url": "https://www.youtube.com/embed/vAZmjTD9rQ4"
+        },
+        "video5": {
+            "titulo": "O AUTOR",
+            "url": "https://www.youtube.com/embed/nbGkHIAJfmQ"
+        },
+        "video6": {
+            "titulo": "PROFETAS",
+            "url": "https://www.youtube.com/embed/epEB254ABBw"
+        },
+        "video7": {
+            "titulo": "ESPECIAL - AZARÃO",
+            "url": "https://www.youtube.com/embed/Rg2m5BUog8M"
+        },
+        "video8": {
+            "titulo": "NO CONTROLE",
+            "url": "https://www.youtube.com/embed/VL6DpPrKyH4"
+        },
+        "video9": {
+            "titulo": "REINO DO HORROR",
+            "url": "https://www.youtube.com/embed/6SGyT6wTTq8"
+        },
+        "video10": {
+            "titulo": "TAPA OLHO",
+            "url": "https://www.youtube.com/embed/CoI2YY4DWq4"
+        },
+        "video11": {
+            "titulo": "ESPECIAL - ENCONTRO CHERRYCAM",
+            "url": "https://www.youtube.com/embed/moiQXEB4M2o"
+        },
+        "video12": {
+            "titulo": "TURNO DA NOITE",
+            "url": "https://www.youtube.com/embed/aSHE3CaxlBE"
+        },
+        "video13": {
+            "titulo": "CASA DA VOVÓ",
+            "url": "https://www.youtube.com/embed/V7DMvNhYo2s"
+        },
+        "video14": {
+            "titulo": "O GOURMET",
+            "url": "https://www.youtube.com/embed/4eKMbLdWoPM"
+        },
+        "video15": {
+            "titulo": "RÉGULO",
+            "url": "https://www.youtube.com/embed/LcvRa7l4iqo"
+        },
+        "video16": {
+            "titulo": "ENTRE NÓS",
+            "url": "https://www.youtube.com/embed/7ESb4xaODCU"
+        },
+        "video17": {
+            "titulo": "TROCA DE LUGARES",
+            "url": "https://www.youtube.com/embed/42AmZIS4UJU"
+        },
+        "video18": {
+            "titulo": "PAIS E FILHOS",
+            "url": "https://www.youtube.com/embed/apFm71a2zoE"
+        },
+        "video19": {
+            "titulo": "CAIXA DE PANDORA",
+            "url": "https://www.youtube.com/embed/H-qgyQZLMiU"
+        },
+        "video20": {
+            "titulo": "VELHOS AMIGOS",
+            "url": "https://www.youtube.com/embed/3rHB_5yUbXQ"
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
