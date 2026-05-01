@@ -14,6 +14,7 @@ body {
     background-size: 100%;
     background-position-x: center;
     color: #ffffff;
+    overflow-x: hidden;
 }
 
 .text {
@@ -29,7 +30,8 @@ h1.text{
 
 
 .logo {
-    width: 15%;
+    width: 80%;
+    max-width: 200px;
     height: auto;
     position: relative;
     left: 50%;
@@ -100,14 +102,6 @@ h1.text{
     }
 }
 
-.membro:hover {
-    transform: scale(1.1);
-}
-
-.membro_selecionado {
-    transform: scale(1.1);   
-}
-
 #ayla .membro_selecionado {
     box-shadow: 0 0 10px #ff0000, 0 0 10px #ff0000;
 }
@@ -126,6 +120,14 @@ h1.text{
 
 #nina .membro_selecionado {
     box-shadow: 0 0 10px #747474, 0 0 10px #747474;
+}
+
+.membro:hover {
+    transform: scale(1.1);
+}
+
+.membro_selecionado {
+    transform: scale(1.1);   
 }
 
 .sobre_membro {
@@ -204,7 +206,7 @@ h1.text{
 }
 
 .socialmedia div {
-    width: 700px;
+    max-width: 700px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -212,6 +214,7 @@ h1.text{
     left: 50%;
     transform: translate(-50%);
     margin-bottom: 2%;
+    padding: 0 5%;
     h2 {
         font-weight: 400;
         font-size: 32px;
@@ -223,39 +226,62 @@ h1.text{
 
 footer {
     width: 100%;
-    height: 300px;
+    min-height: 300px;
+    height: 80%;
     background-color: #000;
     display: flex;
     padding: 2%;
+    align-items: center;
 }
 
 .sobrexdaquestao {
-    width: 50%;
     height: 100%;
     font-size: 24px;
     display: flex;
     flex-wrap: wrap;
-    align-content: center;
     padding-left: 10%;
 }
 
 .redessociais {
-    width: 50%;
     height: 100%;
     display: flex;
     text-align: center;
     justify-content: space-evenly;
-    img {
-        width: 150px;
-    }
     a { 
         color: #fff;
     }
 }
 
+@media (min-width: 1100px) {
+    footer {
+        flex-wrap: nowrap;
+    }
+
+    .sobrexdaquestao, .redessociais {
+        width: 50%;
+    }
+}
+
+@media (max-width: 1099px) {
+    footer {
+        flex-wrap: wrap;
+        text-align: center;
+        justify-content: center;
+        padding: 5% 2%;
+    }
+
+    .sobrexdaquestao {
+        margin-bottom: 2%;
+    }
+}
+
 .discord, .twitter, .youtube {
     cursor: pointer;
-    margin-right: 2%;
+    img {
+        border-radius: 100%;
+        max-width: 150px;
+        width: 90%;
+    }
 }
 
 .discord:hover, .twitter:hover, .youtube:hover {
