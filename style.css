@@ -312,9 +312,16 @@ footer {
         height: 250px;
     }
 
+    .teaser p.text {
+        margin-bottom: 2%;
+    }
+
     .teaser p.text,
     .about p.text {
-        font-size: 12px;
+        width: 130%;
+        font-size: 16px;
+        position: relative;
+        transform: translate(-10%);
     }
 
     h1.text.nome_logo {
@@ -349,7 +356,7 @@ footer {
     }
 
     .socialmedia h1 {
-        font-size: 28px;
+        font-size: 28px !important;
     }
 
     .socialmedia h2 {
