@@ -8,7 +8,7 @@
             "imagem": "images/ayla_chibi.png",
             "funcao": "Social Media Manager",
             "gostos": "Lucas, redes sociais e cerejas",
-            "info": "Tem muito intelecto e muitas alergias"
+            "info": "A profeta."
         },
         "benicio": {
             "nome": "Benício",
@@ -18,7 +18,7 @@
             "imagem": "images/beni_chibi.png",
             "funcao": "Diretor do Canal",
             "gostos": "Seus amigos e X da Questão",
-            "info": "Tem a Caixa de Pandora e muito amor no coração"
+            "info": "Pandora."
         },
         "krave": {
             "nome": "Krave",
@@ -28,7 +28,7 @@
             "imagem": "images/krave_chibi.png",
             "funcao": "Técnico de Som",
             "gostos": "Nina, esportes e música",
-            "info": "Farma muita aura e tem um corvo foda"
+            "info": "O azarão."
         },
         "lucas": {
             "nome": "Lucas",
@@ -38,7 +38,7 @@
             "imagem": "images/lucas_chibi.png",
             "funcao": "Cameraman e Editor",
             "gostos": "Ayla, Krave, comida e jogos",
-            "info": "Tem um cachorro skatista e um graveto MANEIRO"
+            "info": "Quem Narra."
         },
         "nina": {
             "nome": "Nina",
@@ -48,7 +48,7 @@
             "imagem": "images/nina_chibi.png",
             "funcao": "Roteirista",
             "gostos": "Krave e coisas relacionadas à morte",
-            "info": "Tem uma adaga vinda direto do inferno e muito estilo"
+            "info": "A tecelã de histórias."
         }
     },
     "videos": {
@@ -171,6 +171,10 @@
         "video30": {
             "titulo": "CATACLISMA",
             "url": "https://www.youtube.com/embed/9DeYeJimLu0"
+        },
+        "video31": {
+            "titulo": "OLÍMPIO",
+            "url": "https://www.youtube.com/embed/QF75Vvwk_RE"
         }
     }
 }
