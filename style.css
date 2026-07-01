@@ -132,7 +132,7 @@ h1.text {
 }
 
 #nina .membro_selecionado {
-    box-shadow: 0 0 10px #747474, 0 0 10px #747474;
+    box-shadow: 0 0 10px #DA00FC, 0 0 10px #DA00FC;
 }
 
 .membro:hover {
