@@ -13,7 +13,7 @@
         "benicio": {
             "nome": "Benício",
             "interprete": "GGTonho",
-            "papel": "Quem Resolve",
+            "papel": "Quem Protege",
             "cor": "#ecd608",
             "imagem": "images/beni_chibi.png",
             "funcao": "Diretor do Canal",
@@ -33,7 +33,7 @@
         "lucas": {
             "nome": "Lucas",
             "interprete": "GrifoEXE",
-            "papel": "Quem Age",
+            "papel": "Quem Comanda",
             "cor": "#009e2f",
             "imagem": "images/lucas_chibi.png",
             "funcao": "Cameraman e Editor",
