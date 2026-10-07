@@ -3,7 +3,7 @@
         "ayla": {
             "nome": "Ayla",
             "interprete": "LíciaWebber",
-            "papel": "Quem Sabe",
+            "papel": "Quem Cuida",
             "cor": "#ff0000",
             "imagem": "images/ayla_chibi.png",
             "funcao": "Social Media Manager",
@@ -207,6 +207,34 @@
         "video39": {
             "titulo": "ABDUÇÃO",
             "url": "https://www.youtube.com/embed/iUyfUNFZUXE"
+        },
+        "video40": {
+            "titulo": "BIBLIOTECA",
+            "url": "https://www.youtube.com/embed/DylpDeKDA8I"
+        },
+        "video41": {
+            "titulo": "ESPECIAL - SUPER PODERES",
+            "url": "https://www.youtube.com/embed/74rz_Y0aotw"
+        },
+        "video42": {
+            "titulo": "ESQUECIMENTO",
+            "url": "https://www.youtube.com/embed/fyJuEI-FJLQ"
+        },
+        "video43": {
+            "titulo": "A TORRE",
+            "url": "https://www.youtube.com/embed/_h9DU1FUNeo"
+        },
+        "video44": {
+            "titulo": "ESPECIAL - MUNDO IDEAL",
+            "url": "https://www.youtube.com/embed/Zooh5VdScJs"
+        },
+        "video45": {
+            "titulo": "APOTEOSE",
+            "url": "https://www.youtube.com/embed/UcmHB0sWENI"
+        },
+        "video46": {
+            "titulo": "ESPECIAL - DIA DAS CRIANÇAS",
+            "url": "https://www.youtube.com/embed/cXFfIknuoqk"
         }
     }
 }
